@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+input, select, button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.artist-description {
+  max-width: 100%; 
+  word-wrap: break-word; 
+  white-space: pre-wrap; 
+  margin-bottom: 20px; 
+}
+
+.description-container {
+  max-height: 100px; 
+  overflow: hidden;
+  position: relative;
+}
+
+.description-container.expanded {
+  max-height: none;
+}
+
+.show-more {
+  display: block;
+  margin: 10px 0;
+  cursor: pointer;
+  color: #007bff;
+  text-align: center;
+}
+
+.description {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.description.expand {
+  white-space: normal;
+  overflow: auto;
+}
