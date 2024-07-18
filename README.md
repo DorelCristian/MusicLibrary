@@ -49,7 +49,8 @@ The backend will be running on http://localhost:8080.
     ```bash
    npm run dev
 The frontend will be running on http://localhost:5173.
-###Usage
+
+### Usage
 1. **Ensure that both the backend and frontend are running.**
 2. **Open http://localhost:5173 in your web browser.**
 3. **Use the application to manage artists, albums, and songs.**
